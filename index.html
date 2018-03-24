@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pig Game</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">   
+        <!-- <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Special+Elite" rel="stylesheet">
+     </head>
+
+    <body>
+        <div class="side-bar">
+
+       
+        <div class="text">
+            <h3 class="play">
+                Play a round
+            </h3>
+        </div>
+    <div class="wrapper">
+        <div class="row">
+                <div class="col-1-of-2 player-0-panel active" >
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">25</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0"></div>
+                </div>
+            </div>
+       
+        
+        
+            <div class="col-1-of-2 player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">33</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+           
+        <button class="btn-new"><i class="fas fa-plus-circle"></i>New Game</button>
+        <button class="btn-roll">Roll Dice</button>
+        <button class="btn-hold"><i class="fas fa-arrow-down"></i>Hold</button>
+
+        <img src="img/dice-5.png" alt="Dice" class="dice">
+
+    </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
